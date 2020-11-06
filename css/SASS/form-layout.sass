@@ -1,0 +1,187 @@
+@import normalize
+@import skeleton
+@import fonts
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather)
+
+
+//  Contact Us
+.content-contact
+  position: relative
+  width: 100%
+  height: 450px
+  background:
+    image: (linear-gradient(90deg, rgba(244, 245, 247, .175) 0%, rgba(244, 245, 247,.175) 5%, rgba(244, 245, 247, .200) 10%,  rgba(244, 245, 247, .300) 15%,  rgba(244, 245, 247, .400) 20%, rgba(244, 245, 247,.500) 30%,  rgba(244, 245, 247, .850) 60%,  rgba(244, 245, 247, .975) 100%), url(../images/abstract-blue.png))
+    position: bottom center
+    repeat: no-repeat
+  overflow: hidden
+  text-align: center
+  article
+    padding: 100px 100px 100px 100px
+    margin: 0 auto
+    margin-top: 75px
+    text-align: center
+    max-width: 600px
+  h1
+    font-weight: 580
+    color:  #373D3F
+    padding: 0px 30px 0px 30px
+    text-align: center
+    max-width: 600px
+  p
+    padding: 0px 30px 0px 30px
+    text-align: center
+    max-width: 600px
+    font-weight: 250
+    color: #373D3F
+
+
+// Form Section
+.form
+  position: relative
+  width: 100%
+  height: 570px
+  text-align: center
+  background:
+    color: #fff
+    position: bottom center
+    repeat: no-repeat
+  overflow: hidden
+
+  article
+    padding: 50px 50px 50px 50px
+    max-width: 840px
+    margin: 0 auto
+
+  h1
+    font-weight: 580
+    color:  #373D3F
+    padding: 0px 30px 0px 30px
+    text-align: center
+    max-width: 640px
+  p
+    padding: 0px 30px 0px 30px
+    text-align: center
+    max-width: 640px
+    font-weight: 250
+    color: #373D3F
+
+  html body
+    font-family: "Open Sans", sans-serif
+    padding: 1em
+    text-align: center
+
+
+form
+  h1
+    text-align: center
+    color: #a8a8a8
+    text-shadow: 1px 1px 0 white
+
+
+form
+  max-width: 600px
+  text-align: center
+  margin: 0 auto
+  margin-bottom: 20px
+  overflow: hidden
+
+
+form
+  input, form textarea
+    border: 0
+    text-align: center
+    outline: 0
+    padding: 0px 0px 5px 0px
+    -moz-border-radius: 8px
+    -webkit-border-radius: 8px
+    border-radius: 8px
+    display: block
+    width: 100%
+    margin-top: 2em
+    font-family: 'Open Sans', sans-serif
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+    resize: none
+
+form
+  input:focus, form textarea:focus
+    -moz-box-shadow: 0 0px 2px #e74c3c !important
+    -webkit-box-shadow: 0 0px 2px #e74c3c !important
+    box-shadow: 0 0px 2px #e74c3c !important
+
+form
+  #input-message
+    text-align: center
+    margin-top: 1.2em
+    margin-bottom: .2em
+
+form
+  #input-submit
+    color: white
+    background: #bdbdbd
+    cursor: pointer
+    position: center
+    line-height: 5px
+    font-family: 'Open Sans', sans-serif
+    text-transform: bold
+    padding: 0px 0px 50px 0px
+form
+  #input-submit:hover
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6)
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6)
+    box-shadow: #d2d2d2 1px 1px, #d2d2d2 2px 2px, lightgray 3px 3px, lightgray 4px 4px, lightgray 5px 5px
+
+form
+  textarea
+    height: 126px
+
+
+form.half
+  float: left
+  width: 48%
+  margin-bottom: 1em
+
+
+form.right
+  width: 50%
+
+
+form.left
+  margin-right: 2%
+
+.submit
+  margin: 0 auto
+  width: 100%
+  padding: 25px 0px 25px 0px
+  position: center
+
+.submit
+  #input-submit
+    margin: 0 auto
+    width: 40%
+    color: white
+    background: #3f3f3f
+    cursor: pointer
+    position: center
+    line-height: 5px
+    font-family: 'Open Sans', sans-serif
+    text-transform: bold
+//.submit
+  #input-submit:hover
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6)
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6)
+    box-shadow: #d2d2d2 1px 1px, #d2d2d2 2px 2px, lightgray 3px 3px, lightgray 4px 4px, lightgray 5px 5px
+
+/* Clearfix */
+form.cf:before,
+form.cf:after
+  content: " "
+  /* 1 */
+  display: table
+  /* 2 */
+
+
+form.cf:after
+  clear: both
